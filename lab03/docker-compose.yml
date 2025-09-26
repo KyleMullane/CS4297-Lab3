@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: lab03-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: lab03db
+      MYSQL_USER: lab03user
+      MYSQL_PASSWORD: lab03pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+  app:
+    build: .
+    container_name: lab03-app
+    depends_on:
+      - mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/lab03db
+      SPRING_DATASOURCE_USERNAME: lab03user
+      SPRING_DATASOURCE_PASSWORD: lab03pass
+    ports:
+      - "8080:8080"
+
+volumes:
+  mysql-data:
