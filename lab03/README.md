@@ -39,5 +39,5 @@ docker exec -it lab-mysql mysql -u appuser -papppass -D demo
 Show all items:
 SELECT * FROM items;
 
-[CS4297 lab2 step 2.docx](https://github.com/user-attachments/files/22566006/CS4297.lab2.step.2.docx)
-ill clean up the steps for this tomorrow but it should be working and semi readable
+Step 2 instructions 
+[CS4297.lab2.step2.docx](https://github.com/user-attachments/files/22583515/CS4297.lab2.step2.docx)
