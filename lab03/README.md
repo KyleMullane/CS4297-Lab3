@@ -41,3 +41,5 @@ SELECT * FROM items;
 
 Step 2 instructions 
 [CS4297.lab2.step2.docx](https://github.com/user-attachments/files/22583515/CS4297.lab2.step2.docx)
+
+
