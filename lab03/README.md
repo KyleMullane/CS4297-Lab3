@@ -44,6 +44,7 @@ Step 2 instructions
 
 Step 1 and 3 Instructions [Lab03 Step 1 and 3 `.docx](https://github.com/user-attachments/files/22584129/Lab03.Step.1.and.3.docx)
 
-Step 4 Instructions - 
+Step 4 Instructions - [Lab03-Step4.docx](https://github.com/user-attachments/files/22584887/Lab03-Step4.docx)
+
 
 
