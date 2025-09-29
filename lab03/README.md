@@ -39,6 +39,9 @@ docker exec -it lab-mysql mysql -u appuser -papppass -D demo
 Show all items:
 SELECT * FROM items;
 
+Full Lab Sheet - [Lab03-LabSheet.docx](https://github.com/user-attachments/files/22585872/Lab03-LabSheet.docx)
+
+
 Step 2 instructions 
 [CS4297.lab2.step2.docx](https://github.com/user-attachments/files/22583515/CS4297.lab2.step2.docx)
 
